@@ -1,0 +1,116 @@
+body {
+    background-color: #AEEBF2;
+    margin: 0;
+}
+
+img {}
+
+div {}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+
+}
+
+/* Navigation links */
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #100F26;
+    overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar a:active {
+    background-color: #4CAF50;
+}
+
+#bannerimg {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#helm {
+position: relative;
+    left: -4px; 
+   /* height: auto; */
+    width: auto;
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+.pic {
+    position: relative;
+    width: 54.5%;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+   /* padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color:blue;
+    border-style: solid;     
+    #000B3C
+    #2165BF
+    #023059
+    #3299D9
+    #66E4F2
+*/
+
+}
+
+.box {
+    top: 0px;
+    left: 20px;
+    position: relative;
+    width: 60%;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #6CCED9;
+    border-style: ridge;
+    background-color: lightskyblue;
+}
+#aboutbox {
+    background-color: lightskyblue;
+    color: 
+    position: relative;
+    border-style: inset;
+    left: 625px;
+    width: 30%;
+    top: -300px; 
+}
