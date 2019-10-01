@@ -103,5 +103,14 @@ position: relative;
     border-radius: 30px;
     border-color: #6CCED9;
     border-style: ridge;
-    background-color: #255459;
+    background-color: lightskyblue;
+}
+#aboutbox {
+    background-color: lightskyblue;
+    color: 
+    position: relative;
+    border-style: inset;
+    left: 625px;
+    width: 30%;
+    top: -300px; 
 }
