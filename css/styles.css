@@ -108,7 +108,7 @@ position: relative;
 #aboutbox {
     background-color: lightskyblue;
     color: 
-    position: relative;
+    position: active;
     border-style: inset;
     left: 625px;
     width: 30%;
