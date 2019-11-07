@@ -31,7 +31,7 @@ function draw() {
    //Math.trunc(total);
    // Math.round(total);
     text("Total= " + parseInt(total), 230, 100);
-    text("Average= " + parseInt(avg / clicked), 200, 150);
+    text("Average= " + parseInt(avg / clicked), 200 , 150);
     console.log(clicked, avg);
     for (var i = 0; i < 100; i++) {
         if (i > 0 && i < 25) {}
