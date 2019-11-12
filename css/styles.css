@@ -58,9 +58,9 @@ h1 {
 }
 
 #helm {
-position: relative;
-    left: -4px; 
-   /* height: auto; */
+    position: relative;
+    left: -4px;
+    /* height: auto; */
     width: auto;
     margin: 0px;
     top: 0px;
@@ -74,7 +74,7 @@ position: relative;
     top: 0px;
     left: 0px;
     margin: 0;
-   /* padding: 10px;
+    /* padding: 10px;
     border-width: 10px;
     border-radius: 30px;
     border-color:blue;
@@ -88,11 +88,11 @@ position: relative;
 
 }
 
-.box {
-    top: 0px;
-    left: 20px;
+.deepbox {
+/*    top: -300px;*/
+/*    left: 550px;*/
     position: relative;
-    width: 60%;
+    width: 50%;
     margin: 1rem;
     padding: 2rem;
     color: black;
@@ -105,21 +105,59 @@ position: relative;
     border-style: ridge;
     background-color: lightskyblue;
 }
+
+.box {
+    top: -300px;
+    left: 550px;
+    position: relative;
+    width: 32%;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #6CCED9;
+    border-style: ridge;
+    background-color: lightskyblue;
+}
+
+.box2 {
+    top: -810px;
+    left: 400px;
+    position: relative;
+    width: 40%;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #6CCED9;
+    border-style: ridge;
+    background-color: lightskyblue;
+}
+
 #aboutbox {
     background-color: lightskyblue;
-    color: 
-    position: active;
+    color:
+        position: active;
     border-style: inset;
-    left: 625px;
+    left: 550px;
     width: 30%;
-    top: -300px; 
+    top: -600px;
 }
 
 .linkbox {
     top: 0px;
     left: 20px;
     position: relative;
-    width: 10%;
+    width: 30%;
+    height: 100%;*
     margin: 1rem;
     padding: 2rem;
     color: black;
@@ -133,3 +171,18 @@ position: relative;
     background-color: lightskyblue;
 }
 
+.pic2 {
+    text-align: center;
+/*  position: fixed;*/
+    width: 105%;
+    margin: 50px;
+    top: 750px;
+    right: 25%;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #6CCED9;
+    border-style: ridge;
+    background-color: lightskyblue;
+
+}
