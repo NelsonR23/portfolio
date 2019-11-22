@@ -4,41 +4,44 @@
   <html>
 
   <head>
-      <title>RileyPortfolio</title>
-      <link href="../css/styles.css" rel="stylesheet">
-  </head>
+    <title>RileyPortfolio</title>
+    <link href="../css/styles.css" rel="stylesheet">
+      <script src="../scripts/processing.js"></script>
+</head>
 
-  <body id="home">
-      <header>
-          <div class="navbar">
-              <img id="bannerimg" src="../images/laysection.png" alt="Home">
-              <a href="../index.html">Home</a>
-              <a href="../pages/projects.html" rel="Home">Projects</a>
-              <a href="../pages/deepthoughts.html" rel="Home">Deep Thoughts</a>
-              <a href="../pages/aboutme.html">About Me</a>
-          </div>
-      </header>
-      <img class="pic" src="../images/finalcollage.png">
-      <div>
-          <h4 class="box"> This page is dedicated to projects I have made throughout my second year of coding adventures. My first project is a collage made through the Gimp image editing software that shows a few pictures of my fall activities. Most of my time spent from July-October is spent either at marching band or football, so this collage is a hat tip to my hard work. More projects and their struggles to come.
-          </h4>
-      </div>
-      <div class="linkbox">
-          <a href="lightning/index.html" rel="Lightning">Lightning<br>
-              <img border="5" alt="Dice" src="../images/lightningScreen.png" width="250" height="175"></a>
-          <br><br>
-          <a href="dice/index.html" rel="Dice">Dice<br>
-              <img border="5" alt="Dice" src="../images/diceScreen.png" width="180" height="180"></a>
-          <br><br>
-          <a href="chemotaxis/index.html" rel="Chemotaxis">Chemotaxis<br>
-              <img border="5" alt="Dice" src="../images/chemoScreen.png" width="200" height="200"></a>
-      </div>
-      </div>
-      <div class="box2">
-          <h4>Lightning was tough with tracking the lightning to the mouse. There are x and y coordinates of the mouse, but the base lightning works in a straight line. I had to make the hand move along with the mouse so that the lightning would be able to travel with the saber. The saber and yoda are simply images that follow the x and y coordinates of the mouse. There were also some issues with the automated moving of the mouse. Sometimes the lightning disappears because there isn't enough theoretical room for the lightning towards the bottom. Certain parameter issues also arose with the movement, yoda going off the screen and stopping entirely. </h4>
-          <h4>Dice was difficult because there were many different objects to keep track of throughout the project. The shapes are a polygon method called depending on what the roll of each dice was. A shape is drawn with the same number of sides as the rolled value. The javascript part of dice was also complicated because there were many small changes that had to be made with variables and number truncation. "This." was especially annoying. </h4>
-          <h4>Chemotaxis was a struggle because of all the small issues that arose while managing each type of cell. The two types of cells are similar, but not exactly the same, so tracking the differences between the two was difficult and often times confusing. There were a few problems with getting the heal function to work properly so that the cells and the virus would split when "h" was pressed. They would not seperate fat enough and the die method would be invoked immediately. To remedy this the speed of each cell type was contrasted greater so that they would split instantly and be at different coordinates than each other. Another issue I ran into was with fill methods and adjustments to text and object appearance. The targeted item would change according to its assignment, but other items would also change because of the draw method constantly going through itself. I tried to solve this problem using push and popmatrix, but it failed to seperate certain drawings from others within the class. </h4>
-      </div>
-  </body>
-
-  </html>
+<body id="home">
+    <header>
+        <div class="navbar">
+            <img id="bannerimg" src="../images/laysection.png" alt="Home">
+            <a href="../index.html">Home</a>
+            <a href="../pages/projects.html" rel="Home">Projects</a>
+            <a href="../pages/deepthoughts.html" rel="Home">Deep Thoughts</a>
+            <a href="../pages/aboutme.html">About Me</a>
+        </div>
+    </header>
+    <img class="pic" src="../images/finalcollage.png">
+    <div>
+        <h4 class="box"> This page is dedicated to projects I have made throughout my second year of coding adventures. My first project is a collage made through the Gimp image editing software that shows a few pictures of my fall activities. Most of my time spent from July-October is spent either at marching band or football, so this collage is a hat tip to my hard work. More projects and their struggles to come.
+        </h4>
+    </div>
+    <div class="flexbox">
+        <a href="lightning/index.html" rel="Lightning">Lightning<br>
+            <img border="5" alt="Dice" src="../images/lightningScreen.png" width="250" height="175"></a>
+        <br><br>
+        <a href="dice/index.html" rel="Dice">Dice<br>
+            <img border="5" alt="Dice" src="../images/diceScreen.png" width="180" height="180"></a>
+        <br><br> 
+        <a href="chemotaxis/index.html" rel="Chemotaxis">Chemotaxis<br>
+            <img border="5" alt="Dice" src="../images/chemoScreen.png" width="200" height="200"></a>       
+        <a href="starfield/index.html" rel="Starfield">Starfield<br>
+            <img border="5" alt="Dice" src="../images/starshot.png" width="200" height="200"></a>  
+        <canvas data-processing-sources="../../javaProjects/punchDeck/punch.pde"></canvas>
+<!--    </div>-->
+    
+<!--    <div class="flexbox">-->
+        <h4>Lightning - lightning was tough with tracking the lightning to the mouse. There are x and y coordinates of the mouse, but the base lightning works in a straight line. I had to make the hand move along with the mouse so that the lightning would be able to travel with the saber. The saber and yoda are simply images that follow the x and y coordinates of the mouse. There were also some issues with the automated moving of the mouse. Sometimes the lightning disappears because there isn't enough theoretical room for the lightning towards the bottom. Certain parameter issues also arose with the movement, yoda going off the screen and stopping entirely. </h4>
+        <h4>Dice - dice was difficult because there were many different objects to keep track of throughout the project. The shapes are a polygon method called depending on what the roll of each dice was. A shape is drawn with the same number of sides as the rolled value. The javascript part of dice was also complicated because there were many small changes that had to be made with variables and number truncation. "This." was especially annoying. </h4>
+        <h4>Chemotaxis  - chemotaxis was a struggle because of all the small issues that arose while managing each type of cell. The two types of cells are similar, but not exactly the same, so tracking the differences between the two was difficult and often times confusing. There were a few problems with getting the heal function to work properly so that the cells and the virus would split when "h" was pressed. They would not seperate fat enough and the die method would be invoked immediately. To remedy this the speed of each cell type was contrasted greater so that they would split instantly and be at different coordinates than each other. Another issue I ran into was with fill methods and adjustments to text and object appearance. The targeted item would change according to its assignment, but other items would also change because of the draw method constantly going through itself. I tried to solve this problem using push and popmatrix, but it failed to seperate certain drawings from others within the class. </h4>
+        <h4>Starfield - issues arose with starfied in moving the circles and making the movement uniform. Someitmes the circles would go opposite directions to what was intended, and fixing that was simply adding Pi to the angle. There are a few things yup can do with starfield that isn't expressed within the sketch. Pressing 'c' will change the color of the circle while it is in animation. The 's' key will change the stroke color. 'r' takes out the oddball particle, 'p' pauses the animation, 'o' resumes it, and the space bar resets the background and stroke color.</h4>
+    </div>
+</body></html>
