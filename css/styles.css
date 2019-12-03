@@ -71,20 +71,20 @@ h1 {
     position: relative;
     width: 54.5%;
     margin: 0;
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
     margin: 0;
-    /* padding: 10px;
+     padding: 0px;
     border-width: 10px;
     border-radius: 30px;
-    border-color:blue;
-    border-style: solid;     
+    border-color:    #3299D9;
+    border-style: groove;     
     #000B3C
     #2165BF
     #023059
     #3299D9
     #66E4F2
-*/
+
 
 }
 
@@ -190,6 +190,23 @@ h1 {
 .flexbox {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
+    * margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #6CCED9;
+    border-style: ridge;
+    background-color: lightskyblue;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-flow: row;
     justify-content: space-evenly;
     * margin: 1rem;
     padding: 2rem;
